@@ -22,7 +22,7 @@ let ondaRaioPrev = [];
 let ondaVelRaio = 3.5;
 
 function preload(){
-  musica = loadSound("../assets/zelda3.mp3");
+  musica = loadSound("assets/zelda3.mp3");
 }
 
 function setup() {
@@ -52,7 +52,7 @@ function setup() {
       peixeCor[i] = color(181, 228, 140);
     }
     if (sorteio == 3){ 
-      peixeCor[i] = color(255, 209, 102)
+      peixeCor[i] = color(255, 209, 102);
     }
   }
 }
@@ -193,7 +193,7 @@ function desenharPeixe(i){
   // sombra
   noStroke();
   fill(0, 0, 0, 50);
-  ellipse(5, 8, peixeTam[i] * 2, peixeTam[i] * 0.8)
+  ellipse(5, 8, peixeTam[i] * 2, peixeTam[i] * 0.8);
   
   stroke(0);
   strokeWeight(0.1);

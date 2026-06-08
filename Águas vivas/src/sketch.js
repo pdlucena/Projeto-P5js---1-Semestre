@@ -24,7 +24,6 @@ let totalAV = 30;
 let raio = 40;
 
 function preload(){
-  
   musica = loadSound("assets/mario.mp3");
   fundo = loadImage("assets/fundo2.jpg");
 }
