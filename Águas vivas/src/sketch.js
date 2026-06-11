@@ -128,6 +128,14 @@ function draw() {
 
     desenharAguaViva(i);
   }
+  
+  // Texto com instruções para ativar a música
+  if (!musica.isPlaying()) {
+    fill(200, 200, 200, 100);
+    textAlign(CENTER, BOTTOM);
+    textSize(14);
+    text("Clique para ativar a música", width / 2, height - 20);
+  }
 }
 
 function desenharParticula(i){

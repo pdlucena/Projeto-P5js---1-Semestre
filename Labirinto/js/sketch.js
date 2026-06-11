@@ -5,8 +5,8 @@ let playerX = 0;
 let playerY = 0;
 
 function preload(){
-  susto = loadImage("../assets/susto.jpg");
-  grito = loadSound("../assets/grito.mp3");
+  susto = loadImage("assets/susto.jpg");
+  grito = loadSound("assets/grito.mp3");
 }
 
 function setup() {
